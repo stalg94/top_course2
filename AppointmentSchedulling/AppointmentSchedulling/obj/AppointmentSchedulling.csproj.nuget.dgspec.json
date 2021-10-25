@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\asp_core\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj": {}
+    "C:\\Users\\User\\Desktop\\asp_core\\top_course2\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\asp_core\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj": {
+    "C:\\Users\\User\\Desktop\\asp_core\\top_course2\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\asp_core\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\asp_core\\top_course2\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj",
         "projectName": "AppointmentSchedulling",
-        "projectPath": "C:\\Users\\User\\Desktop\\asp_core\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\asp_core\\top_course2\\AppointmentSchedulling\\AppointmentSchedulling\\AppointmentSchedulling.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\asp_core\\AppointmentSchedulling\\AppointmentSchedulling\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\asp_core\\top_course2\\AppointmentSchedulling\\AppointmentSchedulling\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
