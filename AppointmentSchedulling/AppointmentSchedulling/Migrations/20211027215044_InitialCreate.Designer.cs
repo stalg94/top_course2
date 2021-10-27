@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AppointmentSchedulling.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211027203144_AddApplicationUser")]
-    partial class AddApplicationUser
+    [Migration("20211027215044_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,6 +46,9 @@ namespace AppointmentSchedulling.Migrations
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -72,9 +75,6 @@ namespace AppointmentSchedulling.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("Ńame")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

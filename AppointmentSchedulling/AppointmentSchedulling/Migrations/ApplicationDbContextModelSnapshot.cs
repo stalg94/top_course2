@@ -44,6 +44,9 @@ namespace AppointmentSchedulling.Migrations
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -70,9 +73,6 @@ namespace AppointmentSchedulling.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("Ńame")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

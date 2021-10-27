@@ -8,6 +8,6 @@ namespace AppointmentSchedulling.Models
 {
     public class ApplicationUser : IdentityUser     
     {
-        public string Ńame { get; set; }
+        public string Name { get; set; }
     }
 }
