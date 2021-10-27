@@ -775,3 +775,4 @@ C:\Users\User\Desktop\asp_core\top_course2\AppointmentSchedulling\AppointmentSch
 C:\Users\User\Desktop\asp_core\top_course2\AppointmentSchedulling\AppointmentSchedulling\obj\Debug\net5.0\AppointmentSchedulling.pdb
 C:\Users\User\Desktop\asp_core\top_course2\AppointmentSchedulling\AppointmentSchedulling\obj\Debug\net5.0\AppointmentSchedulling.genruntimeconfig.cache
 C:\Users\User\Desktop\asp_core\top_course2\AppointmentSchedulling\AppointmentSchedulling\bin\Debug\net5.0\libman.json
+C:\Users\User\Desktop\asp_core\top_course2\AppointmentSchedulling\AppointmentSchedulling\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
