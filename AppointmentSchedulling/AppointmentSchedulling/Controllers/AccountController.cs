@@ -38,7 +38,7 @@ namespace AppointmentSchedulling.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Appointment");
                 }
                 ModelState.AddModelError("", "Invalid login attempt");
             }
@@ -88,7 +88,7 @@ namespace AppointmentSchedulling.Controllers
         public async Task<IActionResult> LogOff()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("Login ", "Account");
         }
 
 
